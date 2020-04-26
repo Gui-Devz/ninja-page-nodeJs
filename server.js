@@ -38,6 +38,22 @@ server.get("/portfolio", (req, res) => {
     return res.render("portfolio", { items: videos });
 });
 
+server.get("/video", (req, res) => {
+    const id = req.query.id;
+
+    const video = videos.find((video) => {
+        if (video.id == id) {
+            return true;
+        }
+    });
+
+    if (!video) {
+        return res.send("Video Not Found");
+    }
+
+    return res.render("video", { item: video });
+});
+
 server.use((req, res) => {
     res.status(404).render("not-found");
 });
