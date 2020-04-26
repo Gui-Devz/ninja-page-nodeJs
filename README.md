@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="./img/logo.jpg" alt="Portfolio Web Page" width="120">
+  <img src="https://imgur.com/XLYVaNJ" alt="Portfolio Web Page" width="120">
 <br>
 <br>
 Web Page portfolio
@@ -17,8 +17,8 @@ Web Page portfolio
 [//]: # "Add your gifs/images here:"
 
 <div>
-  <img src="./img/intro-gif.gif" alt="demo" width="auto" height="350">
-  <img src="./img/portfolio-gif.gif" alt="demo" height="350">
+  <img src="https://i.imgur.com/NfZFlQX.gif" alt="demo" width="auto" height="350">
+  <img src="https://i.imgur.com/dskKEZR.gif" alt="demo" height="350">
 </div>
 
 <hr />
