@@ -1,6 +1,6 @@
 <h1 align="center">
 <br>
-  <img src="https://imgur.com/XLYVaNJ" alt="Portfolio Web Page" width="120">
+  <img src="https://i.imgur.com/XLYVaNJ.jpg" alt="Portfolio Web Page" width="120">
 <br>
 <br>
 Web Page portfolio
