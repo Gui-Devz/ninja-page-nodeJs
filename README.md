@@ -16,7 +16,7 @@ Web Page portfolio
 
 [//]: # "Add your gifs/images here:"
 
-<div>
+<div align="center">
   <img src="https://i.imgur.com/NfZFlQX.gif" alt="demo" width="auto" height="350">
   <img src="https://i.imgur.com/dskKEZR.gif" alt="demo" height="350">
 </div>
