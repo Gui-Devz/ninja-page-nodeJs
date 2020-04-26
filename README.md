@@ -29,6 +29,7 @@ Web Page portfolio
 
 -   💹 **Node Js** — A web framework for Node Js
 -   🔵 **Express** — A web framework for Node Js
+-   💹 **Nunjucks** — A powerful template engine for Node Js
 
 ## Getting started
 
@@ -40,7 +41,7 @@ Then I'd recommend to use nodemon as a devDependencies, just for practicality.
 
 -   Use the following command on your terminal: npm install nodemon -D
 
-In this project it was used a view engine, that in this case was Nunjucks.
+In this project it was used a template view engine, that in this case was Nunjucks.
 So...
 
 -   Use the following command on your terminal: npm install nunjucks -y
