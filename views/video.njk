@@ -12,13 +12,11 @@
         <h1>{{item.title}}</h1>
     </div>
 
-    <section class="cards">
+    <section class="video">
         <div class="card" id="{{item.id}}">
-            <div class="card__image-container">
-            <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="{imagem de {item.tile}}">
-            {% if item.featured %}
-                <div class="featured">featured</div>
-            {% endif %}
+            <div class="card__video-container">
+                <iframe src="https://www.youtube.com/embed/{{item.id}}" frameborder="0" allowfullscreen>
+                </iframe>
             </div>
             <div class="card__content">
                 <p>{{item.title}}</p>
@@ -29,5 +27,13 @@
             </div>
         </div>
     </section>
+
+    <footer>
+        <div class="links">
+        {% for link in data.links %}
+            <a href="{{link.url}}" target="_blank">{{link.name}}</a>
+        {% endfor %}
+        </div>
+    </footer>
 
 {% endblock %}
