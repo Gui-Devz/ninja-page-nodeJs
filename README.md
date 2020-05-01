@@ -35,7 +35,7 @@ Web Page portfolio
 
 First of all, you'll need the framework Express for the server setup.
 
--   Use the following command on your terminal: npm install express
+-   Use the following command on your terminal: npm install express (I'm considering you already has NodeJs installed in your machine)
 
 Then I'd recommend to use nodemon as a devDependencies, just for practicality.
 
